@@ -50,11 +50,7 @@ export default function Home() {
       </Head>
 
       <p>
-        Dream something with{" "}
-        <a href="https://replicate.com/stability-ai/stable-diffusion">
-          stability-ai/stable-diffusion
-        </a>
-        :
+        Create Album Artwork with PausePlayRepeat Canvas
       </p>
 
       <form className={styles.form} onSubmit={handleSubmit}>
