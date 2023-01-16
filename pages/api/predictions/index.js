@@ -9,7 +9,7 @@ export default async function handler(req, res) {
       // Pinned to a specific version of Stable Diffusion
       // See https://replicate.com/stability-ai/stable-diffussion/versions
       version:
-        "6359a0cab3ca6e4d3320c33d79096161208e9024d174b2311e5a21b6c7e1131c",
+        "f178fa7a1ae43a9a9af01b833b9d2ecf97b1bcb0acfd2dc5dd04895e042863f1",
 
       // This is the text prompt that will be submitted by a form on the frontend
       input: { prompt: req.body.prompt },
